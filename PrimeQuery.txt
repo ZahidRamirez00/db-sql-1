@@ -1,0 +1,7 @@
+1. Selezionare tutti gli insegnanti
+SELECT * FROM teachers ;
+
+2. Selezionare tutti i capi di ogni dipartimento
+SELECT head_of_department, name FROM departments ;
+
+3. Selezionare tutti i corsi di laurea magistrale
