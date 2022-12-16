@@ -5,3 +5,12 @@ SELECT * FROM teachers ;
 SELECT head_of_department, name FROM departments ;
 
 3. Selezionare tutti i corsi di laurea magistrale
+SELECT name FROM degrees WHERE level = 'magistrale';
+
+4. Selezionare tutti gli studenti che hanno come nome Marco
+SELECT * FROM students WHERE name = 'Marco';
+
+5. Selezionare tutti i corsi(insegnamenti) che valgono più o uguale a 12 crediti
+SELECT name, cfu FROM courses WHERE cfu >= 12;
+
+6. 
