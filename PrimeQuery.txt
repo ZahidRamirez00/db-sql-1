@@ -24,3 +24,14 @@ SELECT name, website FROM courses WHERE website IS NULL ;
 
 9. Selezionare tutti gli insegnanti che hanno un numero di telefono 
 SELECT name, surname, phone FROM teachers WHERE phone IS NOT NULL;
+
+BONUS
+
+10.  Selezionare tutti gli studenti il cui nome inizia per "E". 
+SELECT * FROM students WHERE name LIKE 'E%';
+
+11.  Contare tutti gli insegnanti che iniziano con “E” (suggerimento: guardate l’operatore COUNT). 
+SELECT COUNT (*)AS 'Totale_insegnanti' FROM teachers WHERE name LIKE 'E%';
+
+12.  Contare tutti gli insegnanti che non hanno un numero di telefono.
+SELECT COUNT (*)AS 'Totale_insegnanti' FROM teachers WHERE phone IS NULL;
